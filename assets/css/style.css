@@ -1,0 +1,74 @@
+/*.background {
+background-image:url(https://admin.aifcc.com/images/actualite/1495203131-fotolia_82254181_s.jpg);
+background-size: 100%;
+}
+*/
+body{
+  padding-top: 10px;
+}
+
+.image{
+  height:120px;
+  width: 120px;
+  float: none;
+}
+
+.titre{
+  font-size: 1.5em;
+}
+
+.sous-titre{
+  font-size: 1em;
+}
+
+.text{
+  font-family: Comic Sans MS;
+  font-size: 1em;
+  line-height: 140%;
+}
+
+p{
+  font-size: 0.8em;
+}
+
+[class*="col-"], footer{
+  /*  background-color: lightgreen;*/
+  background-color:#A9F5F2;
+  border: 0px solid black;
+  border-radius: 6px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/*arrondir les coins*/
+.coin{
+  background-color:#E4EFFF;
+  border:0px;
+  padding:5px;
+  -moz-border-radius:10px 0;
+  -webkit-border-radius:10px 0;
+  border-radius:10px;
+}
+/*pour les containers sans bordure */
+.arrondie{
+  /*-moz-border-radius:7px;*/
+  /*-webkit-border-radius:7px;*/
+  border-radius:10px;
+}
+
+.style{
+  width: 5rem;
+}
+
+.marge{
+  margin-bottom: 30px;
+}
+
+.src{
+  height: 100px;
+  width: 50%;
+}
+
+div{
+  float: none;
+}
